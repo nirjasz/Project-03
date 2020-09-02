@@ -1,0 +1,204 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*global css section*/
+body{
+	font-family: font-family: 'Playfair Display', serif;
+}
+h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: font-family: 'Playfair Display', serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+a:hover, a{
+	text-decoration: none;
+}
+
+/*header section css here*/
+.header{
+	width: 100%;
+	display: flow-root;
+	text-align: center;
+}
+.main-header{
+	width: 90%;
+	float: left;
+	padding: 30px;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.logo img{
+	margin-right: 55px;
+}
+.menu-item{
+	width: 65%;
+	float: right;
+	text-align: right;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 70px;
+}
+.menu-item ul li a{
+	text-transform: uppercase;
+}
+
+/*banner post css here*/
+}
+.banner-post{
+	width: 100%;
+	display: flow-root;
+}
+.post{
+	/*margin: 0 auto;*/
+	text-align: center;
+}
+.post img{
+	width: 88%;
+}
+.post-details{
+	margin: 80px;
+}
+.post-details span {
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.post-details h1{
+	margin: 18px 0;
+	font-weight: 600;
+}
+.post-details p{
+	margin-bottom: 30px; 
+}
+/*blog gallery css*/
+.blog-gallery{
+	width: 100%; 
+	display: flow-root;
+}
+.gallery{
+	width: 92%;
+	float: left;
+	margin: 80px;
+}
+.left{
+	width: 46%;
+	float: left;
+}
+.right{
+	width: 46%;
+	float: right;
+}
+.post-body img{
+	margin-bottom: 26px;
+}
+.post-body span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.post-body h1{
+	margin: 26px 0;
+}
+.post-body p{
+	margin-bottom: 26px;
+}
+
+/*supscribtion section css*/
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background-color : #f0f0f0;
+	padding: 80px 0;
+	text-align: center;
+}
+.subscribe-body{
+
+}
+.title{
+	margin-bottom: 30px;
+}
+.title h1{
+	font-weight: 400;
+}
+form{
+	position: relative;
+}
+form input{
+	width: 30%;
+	padding: 20px 0px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form input i{
+	position: absolute;
+	top: 20px;
+	right: 36%;
+}
+/*load more section css*/
+.load-more{
+	padding: 80px 0px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.button button{
+	padding: 20px 35px;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+	border: none;
+	border: 1px solid black;
+	font-size: 18px;
+	transition: all 0.5s ease-in-out; 
+}
+.button button:hover{
+	cursor: pointer;
+	background: #f0f0f0;
+	color: black;
+	transition: all 0.5s ease-in-out;
+}
+
+
+/*footer section css*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.footer-body{
+	width: 95%;
+	float: left;
+	padding: 30px 0;
+}
+.footer-left{
+	width: 50%;
+	float: left;
+	text-align: left;
+	margin-left: 55px;
+}
+.footer-right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.footer-left ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-right ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
